@@ -3,14 +3,14 @@
 The following checks will be performed on the entered string using Amazon Bedrock.
 
 1. Does the string you entered conform to what is described in the official AWS documentation ( https://aws.amazon.com/jp/premiumsupport/tech-support-guidelines/ ) ?
-2. Is the input string sufficient from the 5W2H(What, Who, Where, When, Why,How,How much) perspective?
+2. Is the input string sufficient from the 5W2H(What, Who, Where, When, Why, How, How much) perspective?
 
 # Prerequisites
 
 - All input and output is assumed to be in Japanese.
 - It is assumed that the Tokyo region (ap-northeast-1) will be used as the AWS region.
 - We assume that the aforementioned regions allow model access to Anthropic Claude 3 Haiku.
-- If you are using a local machine, use aws configure. If you are using an EC2 instance, make sure that the appropriate instance profile is attached.
+- If you are using a local machine, use aws configure, and If you are using an EC2 instance, make sure that the appropriate instance profile is attached.
 
 ## Usage
 
@@ -29,8 +29,9 @@ The following checks will be performed on the entered string using Amazon Bedroc
     cd CreateInqueryViaBedrock
     ```
 2. In the exec.sh file located directly under the CreateInqueryViaBedrock directory, enter the option "-e" followed by the string you want to query.  
+    e.g.)   
     ```bash
-    e.g.) ./exec.sh -e "I haven't been able to connect to AWS since this morning. Is there some kind of problem?"
+    ./exec.sh -e "I haven't been able to connect to AWS since this morning. Is there some kind of problem?"
     ```
 
 #### Execution as single-page application
