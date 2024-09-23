@@ -51,7 +51,7 @@ The following checks will be performed on the entered string using Amazon Bedroc
     ```bash
     pip install -r requirements.txt
     ```
-5. app.py を実行し、Webブラウザで `localhost:5000` にアクセスします。
+5. Run app.py and access http://localhost:5000 in your web browser.
     ```bash
     python app.py
     ```
