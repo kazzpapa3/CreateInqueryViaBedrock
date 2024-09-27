@@ -19,26 +19,27 @@ The following checks will be performed on the entered string using Amazon Bedroc
 1. In your terminal, change to a local directory
 2. Clone the repository
     ```bash
-    git clone https://github.com/kazzpapa3/CreateInqueryViaBedrock.git
+    git clone https://github.com/kazzpapa3/CreateInquiryViaBedrock.git
     ```
 
 #### Execution in a shell script
 
-1. If you have just cloned from GitHub, "CreateInqueryViaBedrock" will be created directly under it, so change directory.  
+1. If you have just cloned from GitHub, "CreateInquiryViaBedrock" will be created directly under it, so change directory.  
     ```bash
-    cd CreateInqueryViaBedrock
+    cd CreateInquiryViaBedrock
     ```
-2. In the exec.sh file located directly under the CreateInqueryViaBedrock directory, enter the option "-e" followed by the string you want to query.  
+2. In the exec.sh file located directly under the CreateInquiryViaBedrock directory, enter the option "-e" followed by the string you want to query.  
     e.g.)   
+    
     ```bash
     ./exec.sh -e "I haven't been able to connect to AWS since this morning. Is there some kind of problem?"
     ```
 
 #### Execution as single-page application
 
-1. If you have just cloned from GitHub, "CreateInqueryViaBedrock/spa" will be created directly under it, so change directory.  
+1. If you have just cloned from GitHub, "CreateInquiryViaBedrock/spa" will be created directly under it, so change directory.  
     ```bash
-    cd CreateInqueryViaBedrock/spa
+    cd CreateInquiryViaBedrock/spa
     ```
 2. Create a virtual environment for python. The following is an example of virtualenv, but you can also use venv.  
     ```bash
